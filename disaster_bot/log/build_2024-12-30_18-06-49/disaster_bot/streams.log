@@ -1,0 +1,67 @@
+[0.632s] Invoking command in '/home/viator/ws/ttb4_ws/disaster_bot': PYTHONPATH=/home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/disaster_bot build --build-base /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build install --record /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/install.log --single-version-externally-managed install_data
+[0.871s] running egg_info
+[0.871s] creating build/disaster_bot/disaster_bot.egg-info
+[0.871s] writing build/disaster_bot/disaster_bot.egg-info/PKG-INFO
+[0.872s] writing dependency_links to build/disaster_bot/disaster_bot.egg-info/dependency_links.txt
+[0.872s] writing entry points to build/disaster_bot/disaster_bot.egg-info/entry_points.txt
+[0.872s] writing requirements to build/disaster_bot/disaster_bot.egg-info/requires.txt
+[0.872s] writing top-level names to build/disaster_bot/disaster_bot.egg-info/top_level.txt
+[0.872s] writing manifest file 'build/disaster_bot/disaster_bot.egg-info/SOURCES.txt'
+[0.875s] reading manifest file 'build/disaster_bot/disaster_bot.egg-info/SOURCES.txt'
+[0.875s] writing manifest file 'build/disaster_bot/disaster_bot.egg-info/SOURCES.txt'
+[0.875s] running build
+[0.875s] running build_py
+[0.875s] creating /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build
+[0.876s] creating /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib
+[0.876s] creating /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/fire_ex5.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/fire_ex4.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/ttb4_compare2frame.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/ttb4_orb.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/fire_ex2.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/fire_ex1.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.876s] copying disaster_bot/ttb4_opitcal_flow.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.877s] copying disaster_bot/__init__.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.877s] copying disaster_bot/fire_ex_ori2.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.877s] copying disaster_bot/fire_ex.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.877s] copying disaster_bot/fire_ex_ori.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.877s] copying disaster_bot/fire_ex3.py -> /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot
+[0.877s] running install
+[0.877s] running install_lib
+[0.878s] creating /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.879s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex5.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.879s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex4.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.879s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/ttb4_compare2frame.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/ttb4_orb.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex2.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex1.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/ttb4_opitcal_flow.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/__init__.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex_ori2.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.880s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex_ori.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.881s] copying /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build/lib/disaster_bot/fire_ex3.py -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot
+[0.881s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex5.py to fire_ex5.cpython-310.pyc
+[0.883s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex4.py to fire_ex4.cpython-310.pyc
+[0.885s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/ttb4_compare2frame.py to ttb4_compare2frame.cpython-310.pyc
+[0.886s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/ttb4_orb.py to ttb4_orb.cpython-310.pyc
+[0.886s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex2.py to fire_ex2.cpython-310.pyc
+[0.887s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex1.py to fire_ex1.cpython-310.pyc
+[0.889s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/ttb4_opitcal_flow.py to ttb4_opitcal_flow.cpython-310.pyc
+[0.890s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/__init__.py to __init__.cpython-310.pyc
+[0.890s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex_ori2.py to fire_ex_ori2.cpython-310.pyc
+[0.891s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex.py to fire_ex.cpython-310.pyc
+[0.893s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex_ori.py to fire_ex_ori.cpython-310.pyc
+[0.894s] byte-compiling /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot/fire_ex3.py to fire_ex3.cpython-310.pyc
+[0.896s] running install_data
+[0.896s] creating /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/share/ament_index
+[0.896s] creating /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/share/ament_index/resource_index
+[0.896s] creating /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/share/ament_index/resource_index/packages
+[0.896s] copying resource/disaster_bot -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/share/ament_index/resource_index/packages
+[0.896s] copying package.xml -> /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/share/disaster_bot
+[0.897s] running install_egg_info
+[0.899s] Copying build/disaster_bot/disaster_bot.egg-info to /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages/disaster_bot-0.0.0-py3.10.egg-info
+[0.900s] running install_scripts
+[0.920s] Installing dibot script to /home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/disaster_bot
+[0.920s] writing list of installed files to '/home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/install.log'
+[0.949s] Invoked command in '/home/viator/ws/ttb4_ws/disaster_bot' returned '0': PYTHONPATH=/home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/viator/ws/ttb4_ws/disaster_bot/install/disaster_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/disaster_bot build --build-base /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/build install --record /home/viator/ws/ttb4_ws/disaster_bot/build/disaster_bot/install.log --single-version-externally-managed install_data

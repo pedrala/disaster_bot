@@ -1,0 +1,3 @@
+[console_scripts]
+dibot = disaster_bot.fire_ex:main
+
