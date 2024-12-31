@@ -19,3 +19,7 @@ How to execute real
 ===============================
 rviz2
 ros2 run disaster_bot dibot
+
+## Project Demo
+
+[Download the demo video](disaster_bot/img_loc_marker_display_in_rviz.mov)
