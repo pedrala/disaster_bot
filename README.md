@@ -5,9 +5,9 @@ ROS2 환경에서 Turtlebot4 카메라로부터 이미지를 받아 실시간으
 
 
 ## Image Example
-![이미지 설명](disaster_bot/ext_orig.png)
+<img src="disaster_bot/ext_orig.png" alt="Fire Extinguisher Detection" width="300">
 
-![이미지 설명](disaster_bot/man_orig.png)
+<img src="disaster_bot/man_orig.png" alt="Fallen Man Detection" width="300">
 
 How to execute test
 ===============================
