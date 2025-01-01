@@ -19,9 +19,9 @@ ROS2 환경에서 Turtlebot4 카메라로부터 이미지를 받아 실시간으
 
 
 ## Project Demo
-[demo video1](capture/ttb4_automapping_navigation.mp4)
+[turtlebot4 automapping video](capture/ttb4_automapping_navigation.mp4)
 
-[demo video2](capture/demo.gif)
+[image recoognition and displaying markers in rviz2 video](capture/demo.gif)
 
 How to execute test
 ===============================
