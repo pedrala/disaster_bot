@@ -1,6 +1,0 @@
-source;share/disaster_bot/hook/pythonpath.ps1
-source;share/disaster_bot/hook/pythonpath.dsv
-source;share/disaster_bot/hook/pythonpath.sh
-source;share/disaster_bot/hook/ament_prefix_path.ps1
-source;share/disaster_bot/hook/ament_prefix_path.dsv
-source;share/disaster_bot/hook/ament_prefix_path.sh
