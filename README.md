@@ -13,8 +13,15 @@ ROS2 환경에서 Turtlebot4 카메라로부터 이미지를 받아 실시간으
   <img src="capture/orb_recog_firex.png" alt="Fire Extinguisher Detection" width="500">
 </p>
 
+<p align="center">
+  <img src="capture/ttb4_playground.jpeg" alt="ttb4_playground" width="1000">
+</p>
+
+
 ## Project Demo
-[demo video](capture/demo.gif)
+[demo video1](capture/ttb4_automapping_navigation.mp4)
+
+[demo video2](capture/demo.gif)
 
 How to execute test
 ===============================
