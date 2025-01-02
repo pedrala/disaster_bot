@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'mapping = disaster_bot.auto_mapping_explorer:main',
             'dibot = disaster_bot.firex_person:main',
             'test = disaster_bot.firex_person_webcam:main',
         ],
