@@ -6,15 +6,19 @@ ROS2 환경에서 Turtlebot4 카메라로부터 이미지를 받아 실시간으
 또한 SLAM 후 map 저장 과정 없이 auto-mapping 을 위해 yaml 파일의 파라미터들을 조정하였습니다.
 
 ## Capture
+
+### Images
 <p align="center">
   <img src="disaster_bot/images/ext_orig.png" alt="Fire Extinguisher Detection" width="300">
   <img src="disaster_bot/images/man_orig.png" alt="Fallen Man Detection" width="300">
 </p>
 
+### ORB알고리즘으로 실시간 이미지와 특징점 매칭한 모습
 <p align="center">
   <img src="capture/orb_recog_firex.png" alt="Fire Extinguisher Detection" width="500">
 </p>
 
+### 실내 SLAM 주행장 모습
 <p align="center">
   <img src="capture/ttb4_playground.jpeg" alt="ttb4_playground" width="1000">
 </p>
