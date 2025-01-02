@@ -43,3 +43,10 @@ rviz2
 ros2 run disaster_bot dibot
 ```
 
+How to execute launch file
+=============================
+yaml 파일 적용하여 auto-mapping 론치 파일 실행하기
+```console
+ros2 launch disaster_bot auto_mapping_launch.py
+```
+
