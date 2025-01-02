@@ -7,8 +7,8 @@ ROS2 환경에서 Turtlebot4 카메라로부터 이미지를 받아 실시간으
 
 ## Capture
 <p align="center">
-  <img src="disaster_bot/ext_orig.png" alt="Fire Extinguisher Detection" width="300">
-  <img src="disaster_bot/man_orig.png" alt="Fallen Man Detection" width="300">
+  <img src="disaster_bot/images/ext_orig.png" alt="Fire Extinguisher Detection" width="300">
+  <img src="disaster_bot/images/man_orig.png" alt="Fallen Man Detection" width="300">
 </p>
 
 <p align="center">
