@@ -7,7 +7,7 @@ ROS2 환경에서 Turtlebot4 카메라로부터 이미지를 받아 실시간으
 
 ## Capture
 
-### Images
+### 특징점 추출을 위해 미리 준비한 소화기, 사람 이미지 
 <p align="center">
   <img src="disaster_bot/images/ext_orig.png" alt="Fire Extinguisher Detection" width="300">
   <img src="disaster_bot/images/man_orig.png" alt="Fallen Man Detection" width="300">
