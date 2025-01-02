@@ -56,13 +56,13 @@ class FireEx(Node):
         reference_image_info = [
             {
                 'name': 'fire_extinguisher',
-                'path': '/home/viator/ws/ttb4_ws/disaster_bot/ext_orig.png',
+                'path': '/home/viator/ws/ttb4_ws/disaster_bot/images/ext_orig.png',
                 'width': 0.18,
                 'height': 0.18
             },
             {
                 'name': 'person',
-                'path': '/home/viator/ws/ttb4_ws/disaster_bot/man_orig.png',
+                'path': '/home/viator/ws/ttb4_ws/disaster_bot/images/man_orig.png',
                 'width': 0.23,
                 'height': 0.18
             }
