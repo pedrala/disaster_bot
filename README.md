@@ -24,7 +24,16 @@ In addition, the parameters of the yaml file were adjusted for auto-mapping with
   <img src="capture/ttb4_playground.jpeg" alt="ttb4_playground" width="1000">
 </p>
 
-### Code that matches real-time images and feature points for each image of a fire extinguisher and person, and applies homography and pnp algorithms
+
+## Project Demo
+[turtlebot4 automapping video](capture/ttb4_automapping_navigation.mp4)
+
+[ttb4_automapping_in_rviz_video](capture/ttb4_automapping_navigation_rviz_short_480p.mp4)
+
+[image recoognition and displaying location markers in rviz2 video](capture/demo.gif)
+
+
+### FLANN Matcher,Homography and PnP algorithms
 
 ```python
 # 각 참조 이미지에 대해 매칭 및 탐지 수행
@@ -77,13 +86,6 @@ for ref in self.reference_data:
     else:
         self.get_logger().warn(f"{name}: 충분한 매칭점({len(matches)}개)이 없습니다.")
 ```
-
-## Project Demo
-[turtlebot4 automapping video](capture/ttb4_automapping_navigation.mp4)
-
-[ttb4_automapping_in_rviz_video](capture/ttb4_automapping_navigation_rviz_short_480p.mp4)
-
-[image recoognition and displaying location markers in rviz2 video](capture/demo.gif)
 
 How to execute test
 ===============================
