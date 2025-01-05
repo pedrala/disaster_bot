@@ -24,6 +24,59 @@ In addition, the parameters of the yaml file were adjusted for auto-mapping with
   <img src="capture/ttb4_playground.jpeg" alt="ttb4_playground" width="1000">
 </p>
 
+### Code that matches real-time images and feature points for each image of a fire extinguisher and person, and applies homography and pnp algorithms
+
+```python
+# 각 참조 이미지에 대해 매칭 및 탐지 수행
+for ref in self.reference_data:
+    name = ref['name']
+    keypoints_ref = ref['keypoints_ref']
+    descriptors_ref = ref['descriptors_ref']
+    object_points_3d = ref['object_points_3d']
+    w_ref, h_ref = ref['image_size']
+
+    # 참조 이미지(descriptors_ref)와 실시간 이미지(descriptors_frame)의 특징 매칭
+    matches = self.match_features(descriptors_ref, descriptors_frame)
+
+    if len(matches) > 5:  # 매칭 조건을 10개에서 5개로 낮춤
+        self.get_logger().info(f"{name}: {len(matches)}개의 좋은 매칭점을 발견했습니다.")
+        matches = matches[:50]
+
+        pts_ref = np.float32([keypoints_ref[m.queryIdx].pt for m in matches]).reshape(-1, 1, 2)
+        pts_frame = np.float32([keypoints_frame[m.trainIdx].pt for m in matches]).reshape(-1, 1, 2)
+
+        H, mask = cv2.findHomography(pts_ref, pts_frame, cv2.RANSAC, 5.0)
+
+        if H is not None:
+            corners = np.float32([[0, 0], [w_ref, 0], [w_ref, h_ref], [0, h_ref]]).reshape(-1, 1, 2)
+            transformed_corners = cv2.perspectiveTransform(corners, H)
+            image_points = transformed_corners.reshape(-1, 2)
+
+            camera_matrix = np.array(self.camera_info.k).reshape(3, 3)
+            dist_coeffs = np.array(self.camera_info.d)
+            
+            # PnP 알고리즘을 사용하여 위치 및 방향 추정
+            success, rotation_vector, translation_vector = cv2.solvePnP(
+                object_points_3d, # 객체의 3D 좌표
+                image_points,  # 이미지에서의 변환된 2D 좌표
+                camera_matrix,  # 카메라 행렬
+                dist_coeffs,  # 왜곡 계수
+                flags=cv2.SOLVEPNP_ITERATIVE  # 반복 알고리즘 사용
+            )                
+
+            if success:
+                self.publish_marker(translation_vector, rotation_vector, name, ref['marker_scale'])
+                object_detections[name]['corners'] = transformed_corners
+                object_detections[name]['matches'] = matches
+                object_detections[name]['detected'] = True
+                #self.save_matched_image(frame, name)  # 매칭 성공 시 이미지 저장
+            else:
+                self.get_logger().warn(f"{name}: PnP 알고리즘 실패")
+        else:
+            self.get_logger().warn(f"{name}: 호모그래피 계산 실패")
+    else:
+        self.get_logger().warn(f"{name}: 충분한 매칭점({len(matches)}개)이 없습니다.")
+```
 
 ## Project Demo
 [turtlebot4 automapping video](capture/ttb4_automapping_navigation.mp4)
