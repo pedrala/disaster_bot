@@ -33,7 +33,7 @@ In addition, the parameters of the yaml file were adjusted for auto-mapping with
 [image recoognition and displaying location markers in rviz2 video](capture/demo.gif)
 
 
-### FLANN Matcher,Homography and PnP algorithms
+### FLANN Matcher, Homography and Perspective-n-Point algorithm
 
 ```python
 # 각 참조 이미지에 대해 매칭 및 탐지 수행
